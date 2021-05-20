@@ -1,0 +1,38 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.xinitrc: { path: .xinitrc }
+    ~/.bashrc: { path: .bashrc }
+    ~/.alias: { path: .alias }
+    ~/.Xmodmap: { path: .Xmodmap }
+    ~/.Xresources: { path: .Xresources }
+    ~/.shrc: { path: .shrc }
+    ~/.profile: {path: .profile }
+    ~/.vimrc: { path: .vimrc }
+    ~/.vim/colors/bruin.vim: { path: .vim/colors/bruin.vim }
+    ~/.config/alacritty/alacritty.yml: .config/alacritty/alacritty.yml
+    ~/.config/fontconfig/fonts.conf: { path: .config/fontconfig/fonts.conf }
+    ~/.config/dunst/: { glob: true, path: .config/dunst/* }
+    ~/.config/flashfocus/flashfocus.yml: { path: .config/flashfocus/flashfocus.yml }
+    ~/.config/kitty/kitty.conf: { path: .config/kitty/kitty.conf }
+    ~/.config/kitty/colors/: { glob: true, path: .config/kitty/colors/* }
+    ~/.config/ncmpcpp/config: { path: .config/ncmpcpp/config }
+    ~/.config/mpd/mpd.conf: { path: .config/mpd/mpd.conf } 
+    ~/.config/rofi/: { glob: true,  path: .config/rofi/* } 
+    ~/.config/Thunar/: { glob: true,  path: .config/Thunar/* } 
+    ~/.config/picom/picom.conf: { path: .config/picom/picom.conf }
+    ~/.config/user-dirs.dirs: { path: .config/user-dirs.dirs }
+    ~/.config/yt-dlp/config: { path: .config/yt-dlp/config }
+    ~/.local/bin/fet.sh: { path: .local/bin/fet.sh }
+    ~/.local/bin/screenshot: { path: .local/bin/screenshot }
+    ~/.local/bin/color: { path: .local/bin/color } 
+    ~/.local/share/: { glob: true, path: .local/share/*.txt }
+    ~/.local/share/2bwm/config.h: { path: .local/share/2bwm/config.h }              
+    ~/.local/share/2bwm/2bwm_config.patch: { path: .local/share/2bwm/2bwm_config.patch }
+    ~/.local/share/2bwm/autostart.sh: { path: .local/share/2bwm/autostart.sh }
+    ~/.local/share/2bwm/twobwm_autostart.patch: { path: .local/share/2bwm/twobwm_autostart.patch }
+

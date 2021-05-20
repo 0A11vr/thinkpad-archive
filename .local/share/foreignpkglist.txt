@@ -1,0 +1,12 @@
+bash-complete-alias
+flashfocus-git
+freeoffice
+light-git
+masterpdfeditor-free
+mpd-mpris
+oh-my-zsh-git
+picom-ibhagwan-git
+playerctl-git
+wordgrinder
+yay
+youtube-dlp
